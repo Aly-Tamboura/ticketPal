@@ -22,13 +22,9 @@ function TicketList (props) {
   var imgCard = {
     'width':'100%'
   }
-  var responsive = {
-    'overflow-x':'auto'
-  }
-
-  var upcomingEvents = props.searchRes.splice();
 
   return (
+
     <div className="row">
       <div>
 
@@ -82,11 +78,15 @@ function TicketList (props) {
 
 
 
+
       {/*<ul className="flex-container">
+
+      <ul className="flex-container">
+
         <li className="flex-item-gutter" ></li>
-        <li className="flex-item-ticketItem" style={responsive}>
-          <table className="tableClass">
-          <div >
+        <li className="flex-item-ticketItem" >
+          <table>
+          <div className="tableClass">
             <tr>
               <th> Date </th>
               <th> Event </th>
@@ -106,33 +106,15 @@ function TicketList (props) {
           <div className="card">
             <div className="cardContainer">
               <img src={imgUrl} ></img>
-              <h2> {props.searchRes[0].venueName} </h2>
-              <p> {props.searchRes[0].city} </p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardContainer">
-              <h2> TicketMaster </h2>
-              <p> {props.searchRes[0].venueLocation} </p>
-              <h3>{props.searchRes[0].averagePrice}</h3>
-              <button className="buyButton">Buy</button>
-            </div>
-          </div>
-          <div className="card">
-            <div className="cardContainer">
-              <h2> SeatGeek </h2>
-              <p> {props.searchRes[0].venueLocation} </p>
-              <span>
-              <h3>{props.searchRes[0].averagePrice}</h3>
-              <button className="buyButton">Buy</button>
-              </span>
+              <h2> Artist Text </h2>
+              <p> Artist Description Goes Here </p>
             </div>
           </div>
         </li>
         <li className="flex-item-gutter"></li>
-      </ul>*/}
-
+      </ul>
     </div>
+
   )
 }
 
