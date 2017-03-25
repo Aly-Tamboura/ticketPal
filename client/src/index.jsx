@@ -16,13 +16,9 @@ class App extends React.Component {
       clicked: false
     }
     this.search = this.search.bind(this);
-<<<<<<< HEAD
     this.changeClickState = this.changeClickState.bind(this);
-  }
-=======
     this.changePage = this.changePage.bind(this);
-    }
->>>>>>> added moment.js and added click to rerender page on logo
+  }
 
     changePage() {
       console.log('fired again')
@@ -91,13 +87,9 @@ class App extends React.Component {
 
       return (
 
-<<<<<<< HEAD
-        <div>
-          <SearchUnit onSearch={this.search} clickstate={this.changeClickState}/>
-=======
+
       <div>
         <SearchUnit changePage={this.changePage} onSearch={this.search}/>
->>>>>>> added moment.js and added click to rerender page on logo
 
         { this.state.searchResults.length > 0 ?
           (
