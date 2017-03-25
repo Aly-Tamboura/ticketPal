@@ -91,9 +91,8 @@ function TicketList (props) {
 
       <ul className="flex-container">
 
-=======
       {/*<ul className="flex-container">
->>>>>>> fixed merge confilcts
+
         <li className="flex-item-gutter" ></li>
         <li className="flex-item-ticketItem" style={responsive}>
           <table className="tableClass">
@@ -143,9 +142,9 @@ function TicketList (props) {
         <li className="flex-item-gutter"></li>
       </ul>*/}
 
+      </div>
   )
 }
-    </div>
 
 export default TicketList;
 
