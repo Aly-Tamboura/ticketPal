@@ -45,7 +45,6 @@ function TicketList (props) {
        <div className="table-responsive">
 
           <table className="table">
-
             <thead>
                 <tr>
                     <th>Event Date</th>
@@ -77,16 +76,24 @@ function TicketList (props) {
                   )
                 })
               }
+<<<<<<< HEAD
 
+=======
+>>>>>>> added moment.js and added click to rerender page on logo
           </div>
-
        </div>
-
       </div>
 
+<<<<<<< HEAD
 
 
+=======
+      </div>
+  )
+}
+>>>>>>> added moment.js and added click to rerender page on logo
 
+export default TicketList;
       {/*<ul className="flex-container">
 
       <ul className="flex-container">
@@ -142,10 +149,5 @@ function TicketList (props) {
         <li className="flex-item-gutter"></li>
       </ul>*/}
 
-      </div>
-  )
-}
-
-export default TicketList;
 
 // style={imgCard}
